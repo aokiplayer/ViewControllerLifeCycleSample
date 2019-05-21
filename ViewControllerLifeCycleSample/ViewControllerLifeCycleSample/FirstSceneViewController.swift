@@ -2,6 +2,11 @@ import UIKit
 
 class FirstSceneViewController: UIViewController {
 
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        print("A: \(#function)")
+    }
+
     override func loadView() {
         super.loadView()
         print("A: \(#function)")
@@ -49,7 +54,7 @@ class FirstSceneViewController: UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
-        print("A:\(#function)")
+        print("A: \(#function)")
     }
 
     @IBAction func unwindToFirst(_ unwindSegue: UIStoryboardSegue) {

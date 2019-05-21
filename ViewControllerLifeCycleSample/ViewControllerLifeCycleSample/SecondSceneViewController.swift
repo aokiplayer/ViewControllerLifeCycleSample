@@ -2,6 +2,11 @@ import UIKit
 
 class SecondSceneViewController: UIViewController {
 
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        print("\tB: \(#function)")
+    }
+
     override func loadView() {
         super.loadView()
         print("\tB: \(#function)")

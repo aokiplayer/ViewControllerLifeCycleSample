@@ -31,7 +31,7 @@
                                         <rect key="frame" x="0.0" y="89.5" width="120" height="51"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="51" id="rj7-Jv-N6o"/>
-                                            <constraint firstAttribute="width" constant="120" id="wPG-FY-GRU"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="wPG-FY-GRU"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <state key="normal" title="NEXT"/>
